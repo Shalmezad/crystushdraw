@@ -43,4 +43,11 @@ describe Crystushdraw do
     LibMagick.destroyMagickWand m_wand
     LibMagick.magickWandTerminus
   end
+
+  it "should say every INSTRUCTION is an instruction" do
+    program = Crystushdraw::Program.new("")
+    Crystushdraw::Program::INSTRUCTIONS.each do |instruction|
+      program.is_instruction(instruction).should eq(true)
+    end
+  end
 end
