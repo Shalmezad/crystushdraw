@@ -1,4 +1,5 @@
 require "./spec_helper"
+require "./instructions/**"
 require "magickwand-crystal"
 
 describe Crystushdraw do
