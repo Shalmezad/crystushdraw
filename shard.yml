@@ -7,3 +7,9 @@ authors:
 crystal: 0.23.1
 
 license: MIT
+
+dependencies:
+  crystush2d:
+    github: Shalmezad/crystush2d
+  magickwand-crystal:
+    github: blocknotes/magickwand-crystal
